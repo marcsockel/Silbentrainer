@@ -1,4 +1,4 @@
-const CACHE = 'neuesilben-v1';
+const CACHE = 'neuesilben-v2';
 
 self.addEventListener('install', e => {
   e.waitUntil(

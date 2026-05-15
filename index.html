@@ -46,6 +46,10 @@
             #emscripten_border {
                 background-color: black !important;
             }
+            /* Fallback falls Solar2D den Style per JS überschreibt */
+            div[style*="background-color"] {
+                background-color: black !important;
+            }
             progress[value] {
                 appearance: none;
                 background-color: #eee;
